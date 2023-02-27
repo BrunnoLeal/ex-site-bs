@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ex 2 bs</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <style>
+        .bg-preto {
+            background-color: rgb(255, 253, 253);
+
+        }
+
+        .bg-preto a {
+
+            color: black;
+        }
+
+        .bg-grey {
+            background-color: gray;
+        }
+
+        .bg-grey2 {
+            background-color: gray;
+        }
+    </style>
+
+
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- Cabeçalho -->
+        <div class="row ">
+            <div class="col-2">
+                <a href="index.htm">
+                    <img src="https://i.imgur.com/Rd80AxP.png" class="rounded mx-auto d-block img-fluid" alt="Logo">
+                </a>
+            </div>
+        </div>
+        <!-- Menu -->
+        <div class="row border-top">
+            <div class="col-12">
+                <nav class="navbar navbar-dark navbar-expand-lg bg-preto" data-bs-theme="dark">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item dropdown">
+                                <li><a class="nav-link dropdown-toggle fs-1" data-bs-toggle="dropdown" href="#"
+                                        role="button" aria-expanded="false">Perfumes</a> </li>
+                                <li><a class="nav-link dropdown-toggle fs-1" data-bs-toggle="dropdown" href="#"
+                                        role="button" aria-expanded="false">Corpo e banho</a> </li>
+                                <li><a class="nav-link dropdown-toggle fs-1" data-bs-toggle="dropdown" href="#"
+                                        role="button" aria-expanded="false">Linha ambiente</a></li>
+                                <li><a class="nav-link dropdown-toggle fs-1" data-bs-toggle="dropdown" href="#"
+                                        role="button" aria-expanded="false">Promoções</a></li>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider">
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                </ul>
+                                </li>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Carousel -->
+        <div class="row">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i.imgur.com/GaSV6DT.png" class="d-block w-100" alt="Promoção 1">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu de baixo -->
+
+        <div class="row2">
+            <div class="col-12">
+                <nav class="navbar navbar-dark navbar-expand-lg bg-grey" data-bs-theme="grey" style="height:150px;">
+                    <div class="container-fluid">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                            <ul class="navbar-nav">
+
+                                <li class="nav-item fs-2">
+                                    <a class="nav-link" href="#"><i class="bi bi-percent"> Frete Gratis</i></a>
+                                </li>
+                                <li class="nav-item fs-2">
+                                    <a class="nav-link" href="#"><i class="bi bi-credit-card"> Pague no
+                                            cartão</i></a>
+                                </li>
+                                <li class="nav-item fs-2">
+                                    <a class="nav-link" href="#"><i class="bi bi-shield-check"> Site seguro</i></a>
+                                </li>
+                                <li class="nav-item fs-2">
+                                    <a class="nav-link" href="#"><i class="bi bi-truck"> Prazo de Entrega</i> </a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Corpo -->
+        <div class="row mt-3">
+
+
+            <!-- Conteúdo -->
+            <div class="col-12">
+
+                <!-- Título -->
+                <div class="container">
+                    <div class="col-12">
+                        <h2 class="display-10 text-center fw-bold">
+                            Ultimos lançamentos! </h2>
+                    </div>
+                </div>
+
+                <!-- Listagem de produtos: -->
+                <!-- Linha 1 -->
+                <div class="row justify-content-center">
+
+                    <div class="col-3 text-center">
+                        <div class="card h-100">
+
+                            <img src="img/tobacc.jpg" class="card-img-top w-100" >
+                            <div class="card-body">
+                                <h5 class="card-title">Tobacco Vanille - 100ML</h5>
+                                <p class="card-text">Fragrância de Tom Ford.</p>
+                                <p> 2.120R$
+                                <p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-3 text-center">
+                        <div class="card h-100 ">
+                            <img src="img/fah.jpg" class="card-img-top w-100" >
+                            <div class="card-body">
+                                <h5 class="card-title">Dior Fahrenheit - 100ML</h5>
+                                <p class="card-text">Fragrância de Christian Dior.</p>
+                                <p>599,95R$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="card h-100">
+                            <img src="img/pour.png" class="card-img-top w-100" >
+                            <div class="card-body">
+                                <h5 class="card-title"> Pour Homme - 125ML</h5>
+                                <p class="card-text">Fragrância Dolce & Gabbana</p>
+                                <p>349,99R$</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-3 text-center">
+                        <div class="card h-100">
+                            <img src="img/212.jpg" class="card-img-top w-100" >
+                            <div class="card-body">
+                                <h5 class="card-title">212 Vip Black - 200ML</h5>
+                                <p class="card-text">Fragrância de Carolina Herrera</p>
+                                <p>429,90R$</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- menu sobre >-->
+
+        <footer class="bg-grey text-dark py-5 row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-3 col-lg-3 col-x1-3 mx-auto ml-3">
+                            <h5 class="text-capitalize">
+                                Quem somos?
+                            </h5>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Somos uma empresa
+                                    composta por jovens sonhadores que almejam lhe prporcionar o doce aroma da
+                                    vida.</a></p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-x1-3 mx-auto ml-3">
+                            <h5 class="text-capitalize">
+                                Categorias
+                            </h5>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Masculino.</a></p>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Feminino.</a></p>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Infantil.</a></p>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Ofertas.</a></p>
+                        </div>
+                        <div class="col-md-3 col-lg-3 col-x1-3 mx-auto ml-3">
+                            <h5 class="text-capitalize">
+                                Institucional
+                            </h5>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Contato.</a></p>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Sobre perfumes.</a></p>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Trocas e
+                                    devoluções.</a></p>
+                            <p><a href="#" class="text-white" style="text-decoration:none;"> Politica de
+                                    privacidade.</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- Rodapé -->
+        <div class="row bg-dark bg-gradient text-white py-5 ">
+
+            <div class="col-12">
+                <p class="text-center">&copy; 2023 - Lorem Ipsum Comércio - Todos os direitos reservados.</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
